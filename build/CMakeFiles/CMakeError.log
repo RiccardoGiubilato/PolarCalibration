@@ -1,0 +1,165 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d84b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d84b3.dir/build.make CMakeFiles/cmTC_d84b3.dir/build
+make[1]: Entering directory '/home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d84b3.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d84b3.dir/CheckSymbolExists.c.o   -c /home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d84b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d84b3.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d84b3.dir/CheckSymbolExists.c.o  -o cmTC_d84b3 -rdynamic 
+CMakeFiles/cmTC_d84b3.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d84b3.dir/build.make:97: recipe for target 'cmTC_d84b3' failed
+make[1]: *** [cmTC_d84b3] Error 1
+make[1]: Leaving directory '/home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d84b3/fast' failed
+make: *** [cmTC_d84b3/fast] Error 2
+
+File /home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b00ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b00ce.dir/build.make CMakeFiles/cmTC_b00ce.dir/build
+make[1]: Entering directory '/home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b00ce.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b00ce.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b00ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b00ce.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b00ce.dir/CheckFunctionExists.c.o  -o cmTC_b00ce -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b00ce.dir/build.make:97: recipe for target 'cmTC_b00ce' failed
+make[1]: *** [cmTC_b00ce] Error 1
+make[1]: Leaving directory '/home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b00ce/fast' failed
+make: *** [cmTC_b00ce/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5df26/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5df26.dir/build.make CMakeFiles/cmTC_5df26.dir/build
+make[1]: Entering directory '/home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5df26.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_5df26.dir/CheckSymbolExists.c.o   -c /home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5df26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5df26.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_5df26.dir/CheckSymbolExists.c.o  -o cmTC_5df26 -rdynamic 
+CMakeFiles/cmTC_5df26.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5df26.dir/build.make:97: recipe for target 'cmTC_5df26' failed
+make[1]: *** [cmTC_5df26] Error 1
+make[1]: Leaving directory '/home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5df26/fast' failed
+make: *** [cmTC_5df26/fast] Error 2
+
+File /home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4642a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4642a.dir/build.make CMakeFiles/cmTC_4642a.dir/build
+make[1]: Entering directory '/home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4642a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4642a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4642a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4642a.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4642a.dir/CheckFunctionExists.c.o  -o cmTC_4642a -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4642a.dir/build.make:97: recipe for target 'cmTC_4642a' failed
+make[1]: *** [cmTC_4642a] Error 1
+make[1]: Leaving directory '/home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4642a/fast' failed
+make: *** [cmTC_4642a/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2455/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2455.dir/build.make CMakeFiles/cmTC_d2455.dir/build
+make[1]: Entering directory '/home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2455.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d2455.dir/CheckSymbolExists.c.o   -c /home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d2455
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2455.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d2455.dir/CheckSymbolExists.c.o  -o cmTC_d2455 -rdynamic 
+CMakeFiles/cmTC_d2455.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d2455.dir/build.make:97: recipe for target 'cmTC_d2455' failed
+make[1]: *** [cmTC_d2455] Error 1
+make[1]: Leaving directory '/home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d2455/fast' failed
+make: *** [cmTC_d2455/fast] Error 2
+
+File /home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_857cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_857cc.dir/build.make CMakeFiles/cmTC_857cc.dir/build
+make[1]: Entering directory '/home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_857cc.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_857cc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_857cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_857cc.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_857cc.dir/CheckFunctionExists.c.o  -o cmTC_857cc -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_857cc.dir/build.make:97: recipe for target 'cmTC_857cc' failed
+make[1]: *** [cmTC_857cc] Error 1
+make[1]: Leaving directory '/home/riccardo/binaries/PolarCalibration/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_857cc/fast' failed
+make: *** [cmTC_857cc/fast] Error 2
+
+

@@ -1,0 +1,12 @@
+%YAML:1.0
+minDisparity: 1
+numDisparities: 64
+SADWindowSize: 9
+P1: 800
+P2: 3200
+disp12MaxDiff: 2
+preFilterCap: 31
+uniquenessRatio: 15
+speckleWindowSize: 100
+speckleRange: 32
+fullDP: 1
